@@ -1,0 +1,25 @@
+table,td,tr{
+	border: 2px solid blue;
+}
+tr:nth-of-type(even){
+	background-color: aqua;
+}
+tr:nth-of-type(odd){
+	background-color: green;
+}
+tr:first-child{
+	background-color: yellow;
+}
+table{
+	border-collapse: collapse;
+}
+table{
+	width: 150px;
+	table-layout: auto;
+}
+table{
+	empty-cells: hide;
+}
+caption{
+	caption-side: bottom;
+}
